@@ -4,8 +4,139 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panda Commerce...</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <h1>Hello Panda</h1>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-info-subtle">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bagpacks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Carusel -->
+    <div class="container">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide carusel-bg"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1>Mi LED TV 4A PRO 32</h1>
+                <p>
+                  HD-Ready display, cinematic quality sound, multiple ports,
+                  leading performance. 700000+ hours of content on Patchwall
+                </p>
+                <h1 class="price">$1200</h1>
+                <button class="buy-now-button">BUY NOW</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="images/banner-images/tv.png"
+                  class="d-block w-100"
+                  alt="tv.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1>Ear Bud Warmer</h1>
+                <p>
+                  Ear Warmers Wireless Headphones EarMuffs, Built-in HD Speakers
+                  and Microphone with Carry Bag for Biking Running Cool Tech
+                  Gadgets Gifts for Winter.
+                </p>
+                <h1 class="price">$420</h1>
+                <button class="buy-now-button">BUY NOW</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="images/banner-images/headphone.png"
+                  class="d-block w-100"
+                  alt="headphone.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1>X-Box Series X</h1>
+                <p>
+                  Discover your next favorite game. Play new games on day one.
+                  Enjoy hundreds of high-quality games on console, PC, and
+                  cloud. Play together with friends.
+                </p>
+                <h1 class="price">$600</h1>
+                <button class="buy-now-button">BUY NOW</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="images/banner-images/xbox.png"
+                  class="d-block w-100"
+                  alt="xbox.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
   </body>
 </html>
