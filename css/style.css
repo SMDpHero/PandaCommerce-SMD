@@ -39,6 +39,35 @@
 .catagories h1 {
   color: white;
 }
-.catagories img{
+.catagories img {
   width: 100px;
+}
+.card {
+  border: none;
+  /* background-color: whitesmoke; */
+  box-shadow: 3px 3px 25px lightgray;
+}
+.card-body {
+  text-align: center;
+}
+.card-footer {
+  border-top: none;
+  background-color: white;
+  text-align: center;
+  height: 120px;
+}
+.contact{
+  height: 300px;
+  text-align: center;
+}
+.contact-items h6{
+  color: gray;
+  font-size: .95rem;
+}
+.send{
+  margin-top: 10px;
+}
+footer{
+  text-align: center;
+  color: gray;
 }
